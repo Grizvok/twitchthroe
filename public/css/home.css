@@ -1,0 +1,110 @@
+.top-panel {
+  height:12%;
+  background-color:#2E4A62;
+  width:100%;
+}
+
+.top-container {
+	border-bottom:1px solid black;
+}
+
+.site-name {
+  font:100% Helvetica, sans-serif;
+  font-size:350%;
+  display:inline;
+  text-align:center;
+  color:#FFF;
+}
+
+.site-name-container {
+	margin-top:1.25%;
+	display:inline-block;
+	margin-left:20%;
+	width:auto;
+}
+
+.login-form {
+float:right;
+margin-right:20%;
+display:inline-block;
+padding-top:2.9%;
+
+}
+
+body {
+  margin:0;
+  padding:0;
+  border:0;
+}
+
+
+.container {
+	float:right;
+	width:100%;
+	height:80%;
+	background-color:#B4B7BA;
+	vertical-align:top; 
+}
+
+.user-input {
+	margin-right:1%;
+}
+
+.slogan {
+	font:200% Helvetica, sans-serif;
+	margin-left:18%;
+	margin-top:9%;
+}
+
+.monitor-icon {
+	width:7%;
+	height:7%;
+	margin-left:18%;
+	display:inline-block;
+}
+
+
+.mouse-icon {
+	width:5%;
+	height:5%;
+	margin-top:1%;
+	margin-left:17.3%;
+}
+
+.inline-block {
+	display:inline-block;
+}
+
+
+.icon-text1 {
+	display:inline-block;
+	margin-bottom:15%;
+	margin-left:10%;
+}	
+
+.icon-container {
+	width:auto;
+	display:inline-block;
+	margin-left:13%;
+}
+
+.product-description {
+	display:inline-block;
+	vertical-align:middle;
+}
+
+.subscribe {
+	display:inline-block;
+}
+
+.button {
+    background-color: #1f95e0; /* Green */
+    border: none;
+    color: white;
+    padding: 5% 10%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 100%;
+}
+/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,21 @@
+$font-stack: Helvetica, sans-serif;
+
+.top-panel {
+	height:10%;
+	background-color:#808080;
+	width:100%;
+}
+
+.site-name {
+	font: 100% $font-stack;
+	font-size:130%;
+}
+
+.login-form {
+	display:inline-flex;
+}
+
+body {
+	margin:0;
+	padding:0;
+}
