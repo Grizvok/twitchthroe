@@ -39,36 +39,36 @@ body {
 
 
 .container {
-	float:right;
 	width:100%;
-	height:80%;
+	float:right;
+	height:60%;
 	background-color:#B4B7BA;
 	vertical-align:top; 
 }
 
-.user-input {
-	margin-right:1%;
+.register-form-container {
+	display:inline-block;
+	margin-left:60%;
+}
+
+.slogan-box {
+	margin-left:18%;
 }
 
 .slogan {
 	font:200% Helvetica, sans-serif;
-	margin-left:18%;
-	margin-top:9%;
 }
 
 .monitor-icon {
 	width:7%;
 	height:7%;
-	margin-left:18%;
 	display:inline-block;
 }
 
 
 .mouse-icon {
-	width:5%;
-	height:5%;
-	margin-top:1%;
-	margin-left:17.3%;
+	width:6%;
+	height:6%;
 }
 
 .inline-block {
@@ -78,19 +78,34 @@ body {
 
 .icon-text1 {
 	display:inline-block;
-	margin-bottom:15%;
-	margin-left:10%;
 }	
 
 .icon-container {
-	width:auto;
 	display:inline-block;
-	margin-left:13%;
+	margin-left:20%;
+	width:auto;
+}
+
+.icon-container2 {
+	margin-left:20.2%;
+	display:inline-block;
 }
 
 .product-description {
 	display:inline-block;
 	vertical-align:middle;
+	margin-bottom:5.2%;
+	margin-left:4%;
+}
+
+.product-description2 {
+	display:inline-block;
+	margin-bottom:7%;
+	margin-left:6%;
+}
+
+.register-submit {
+	padding-top:15%;
 }
 
 .subscribe {
