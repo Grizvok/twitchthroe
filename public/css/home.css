@@ -37,6 +37,13 @@ body {
   border:0;
 }
 
+.email-register {
+	margin-bottom:5%;
+}
+
+.user-password {
+	margin-bottom:5%;
+}
 
 .container {
 	width:100%;
@@ -48,7 +55,8 @@ body {
 
 .register-form-container {
 	display:inline-block;
-	margin-left:60%;
+	position:relative;
+	left:5%;
 }
 
 .slogan-box {
@@ -57,12 +65,19 @@ body {
 
 .slogan {
 	font:200% Helvetica, sans-serif;
+	display:inline-block;
 }
 
 .monitor-icon {
 	width:7%;
 	height:7%;
+}
+
+.left-hand-landing {
 	display:inline-block;
+	margin-top:5%;
+	margin-left:10%;
+	width:50%;
 }
 
 
@@ -83,7 +98,6 @@ body {
 .icon-container {
 	display:inline-block;
 	margin-left:20%;
-	width:auto;
 }
 
 .icon-container2 {
@@ -122,4 +136,19 @@ body {
     display: inline-block;
     font-size: 100%;
 }
+
+@media only screen and (max-width: 700px) {
+
+	.register-form-container {
+	float:right;
+	position:relative;
+	right:30%;
+	}
+
+
+
+
+} 
+
+
 /*# sourceMappingURL=home.css.map */
