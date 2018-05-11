@@ -30,3 +30,6 @@ app.use(require('./router'));
 
 	
 app.listen(8000);
+
+process.on('uncaughtException', err => console.log('uncaught exception:', err));
+process.on('unhandledRejection', error => console.log('unhandled rejection:', error));
