@@ -8,14 +8,27 @@ const validator = require('validator');
 
 
 router.post('/', async function(req, res) {
-	//const {login, password, confirmpassword} = req.body;
-	console.log(req.body);
+
   let emailStatus = await checkUserEmail(req.body.email);
+  let passwordStatus = await doPasswordsMatch(req.body.password, req.body.confirmpassword);
+  let passwordLengthStatus = await checkPasswordLength(req.body.password);
 
   if (emailStatus) {
-    console.log('This is a valid email');
+  	//res.sendStatus(200);
   } else {
-    console.log('This is not a valid email');
+  	//res.sendStatus(400);
+  }
+
+  if (passwordStatus) {
+  	//res.sendStatus(200);
+  } else {
+  		//res.sendStatus(400);
+  }
+
+  if (passwordLengthStatus) {
+  	res.sendStatus(200);
+  } else {
+  	  res.sendStatus(400);
   }
 
 });
@@ -26,6 +39,17 @@ function checkUserEmail(email) {
   });
 }
 
+function doPasswordsMatch(password, confirmpassword) {
+	return new Promise(resolve => {
+		resolve(validator.equals(password, confirmpassword));
+	})
+}
+
+function checkPasswordLength(password) {
+	return new Promise(resolve => {
+		resolve(validator.isLength(password, {min:6, max:15}));
+	})
+}
 
 
 module.exports = router;
